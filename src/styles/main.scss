@@ -2,18 +2,11 @@
 @import "reset.scss";
 @import "header.scss";
 @import "navigation.scss";
+@import "catalog.scss";
 @import "card.scss";
 @import "stars.scss";
 
 body {
   font-family: "Roboto", sans-serif;
   font-size: 11px;
-}
-
-.catalog {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: 50px auto;
-  max-width: 4 * $card-size + (48px * 4);
 }
