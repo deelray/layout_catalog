@@ -2,7 +2,6 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  
   max-width: 4 * $card-size + ($distance-between-blocks * 4);
 
   &--indention {
