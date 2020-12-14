@@ -1,14 +1,12 @@
 .catalog {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, $card-size);
   justify-content: center;
-  max-width: 4 * $card-size + ($distance-between-blocks * 4);
+  column-gap: $distance-between-blocks-hor;
+  row-gap: $distance-between-blocks-vert;
+  max-width: 4 * $card-size + ($distance-between-blocks-hor * 3);
 
   &--indention {
     margin: 50px auto;
-  }
-
-  &__card {
-    margin: 0 24px 50px;
   }
 }
